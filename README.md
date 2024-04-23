@@ -8,9 +8,11 @@
 
 
 ## Endpoints
-- Create User: `<baseUrl>/user/create`
-- User Login: `<baseUrl>/user/login`
+- Create User: `POST <baseUrl>/user/create`
+- User Login: `POST <baseUrl>/user/login`
 
 &nbsp;
 
-- Create Wallet: `<baseUrl>/wallet/create`
+- Create Wallet: `POST <baseUrl>/wallet/create`
+- Fund Wallet: `POST <baseUrl>/wallet/fund`
+- Get Wallet Balance: `GET <baseUrl>/wallet/balance/:account`
