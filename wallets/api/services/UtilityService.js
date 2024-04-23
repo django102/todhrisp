@@ -101,20 +101,6 @@ const UtilityService = {
       }
       return Array.from(uniqueValues);
    },
-
-   send_email: async (recipients, data, template) => {
-      if (!recipients || !_.isArray(recipients) || recipients.length < 1)
-         throw new Error('Array of email recipients is required.');
-      if (!data || !_.isObject(recipients) || Object.keys(data).length < 1) throw new Error('Data object required');
-      if (!template) throw new Error('Email template name required');
-
-      // TODO: create email templates
-      // TODO: integrate an SMTP provider to handle email sending.
-
-      // const email_text = EmailTemplates(template, data);
-      //await email_sender.SMTP(recipients, 'no-reply@holda.com', email_text);
-      return true;
-   },
    arrayContainsOnlyValidOptions: (arr, allowedSet) => {
       // Use the every method to check if all elements in the array are in the allowed set
       return arr.every((element) => allowedSet.includes(element));

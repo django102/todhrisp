@@ -18,7 +18,7 @@ const sequelize = new Sequelize({
 
 
 const models = {
-
+   wallet: require('./Wallet')(sequelize),
 };
 
 
