@@ -19,6 +19,7 @@ const sequelize = new Sequelize({
 
 const models = {
    wallet: require('./Wallet')(sequelize),
+   ledger: require('./Ledger')(sequelize),
 };
 
 
