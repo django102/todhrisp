@@ -1,0 +1,35 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "api gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/django102/todhrisp.git"
+  },
+  "keywords": [
+    "todhrisp"
+  ],
+  "author": "\"Wale K. Santos <eighteen.eighty.one@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/django102/todhrisp/issues"
+  },
+  "homepage": "https://github.com/django102/todhrisp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

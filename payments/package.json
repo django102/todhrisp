@@ -1,0 +1,46 @@
+{
+  "name": "payments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/django102/todhrisp.git"
+  },
+  "keywords": [
+    "todhrisp"
+  ],
+  "author": "Wale K. Santos <eighteen.eighty.one@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "chance": "^1.1.11",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "db-migrate": "^0.11.14",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-pino-logger": "^7.0.0",
+    "express-rate-limit": "^7.2.0",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.7",
+    "pino": "^8.20.0",
+    "pino-pretty": "^11.0.0",
+    "sequelize": "^6.37.3",
+    "util": "^0.12.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
